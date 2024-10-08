@@ -7,6 +7,6 @@
 3. **Jupyter Notebook**: Run `jupyter notebook` to launch the web-based IDE in your local environment.
 4. **Check Python Version**: Inside Jupyter notebook, use `!python --version` to check the Python version.
 
-## Other Useful Commands
+### Other Useful Commands
 - Locate Python: `whereis python`  
 - Find active Python: `which python`

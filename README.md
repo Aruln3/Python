@@ -65,5 +65,5 @@ total_expense = house_rent + food_exp  # Total expenses calculated
 print(total_expense)               # Output: 15000
 
 saving = salary - total_expense     # Savings calculated
-print("My total saving of this month", saving)  # Output: My total saving of this month 13000
+print("My total saving of this month is", saving)  # Output: My total saving of this month is 13000
 

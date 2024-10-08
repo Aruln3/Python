@@ -10,3 +10,45 @@
 ### Other Useful Commands
 - Locate Python: `whereis python`  
 - Find active Python: `which python`
+
+## Calculations / Built-in Functions
+
+1. **Print Statement**:  
+   `print("Hello world!")`  
+   **Explanation**: Prints the content inside the quotes.  
+   **Output**: `Hello world!`
+
+2. **Length of String**:  
+   `len("Hello world!")`  
+   **Explanation**: Returns the length of the string, including spaces.  
+   **Output**: `12`
+
+3. **Mathematical Calculation (BODMAS)**:  
+   `print(4.5 - 2 * (4 / 7))`  
+   **Explanation**: Follows the BODMAS rule for calculations. First, division happens (`4/7`), then multiplication by 2, and finally subtraction from 4.5.  
+   **Output**: `2.857142857142857`
+
+4. **Absolute Value**:  
+   `abs(-17)`  
+   **Explanation**: Returns the absolute (positive) value of a number.  
+   **Output**: `17`
+
+5. **Type Check**:  
+   `type(17.5)`  
+   **Explanation**: Returns the data type of the given value. In this case, it’s a float (decimal number).  
+   **Output**: `<class 'float'>`
+
+6. **Rounding**:  
+   `round(17.4)`  
+   **Explanation**: Rounds the given number to the nearest integer. Since 17.4 is closer to 17 than 18, it rounds down.  
+   **Output**: `17`
+
+7. **Maximum Value**:  
+   `max(9, 5, 6, 12, 23)`  
+   **Explanation**: Returns the maximum value from the given list of numbers.  
+   **Output**: `23`
+
+8. **Minimum Value**:  
+   `min(9, 5, 6, 12, 23)`  
+   **Explanation**: Returns the minimum value from the given list of numbers.  
+   **Output**: `5`

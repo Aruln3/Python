@@ -54,14 +54,16 @@
    **Output**: `5`
 
 ## Variables
+
 Variables are containers that hold values. You can use characters `a-z`, `A-Z`, numbers `0-9`, and the underscore `_` to name them.
 
-`salary = 28000`
-`house_rent = 10000`
-`food_exp = 5000`
-`total_expense = house_rent + food_exp`
-`print(total_expense)`
+```python
+salary = 28000                     # Salary assigned to the variable
+house_rent = 10000                 # House rent assigned to the variable
+food_exp = 5000                    # Food expenses assigned to the variable
+total_expense = house_rent + food_exp  # Total expenses calculated
+print(total_expense)               # Output: 15000
 
-**Output**: `15000`
-// salary, house_rent, and food_exp are assigned numeric values.
-// total_expense is calculated by adding house_rent and food_exp.
+saving = salary - total_expense     # Savings calculated
+print("My total saving of this month", saving)  # Output: My total saving of this month 13000
+

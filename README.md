@@ -56,11 +56,12 @@
 ## Variables
 Variables are containers that hold values. You can use characters `a-z`, `A-Z`, numbers `0-9`, and the underscore `_` to name them.
 
-`salary = 28000
-house_rent = 10000
-food_exp = 5000
-total_expense = house_rent + food_exp
-print(total_expense)`
+`salary = 28000`
+`house_rent = 10000`
+`food_exp = 5000`
+`total_expense = house_rent + food_exp`
+`print(total_expense)`
+
 **Output**: `15000`
-# - salary, house_rent, and food_exp are assigned numeric values.
-# - total_expense is calculated by adding house_rent and food_exp.
+// salary, house_rent, and food_exp are assigned numeric values.
+// total_expense is calculated by adding house_rent and food_exp.

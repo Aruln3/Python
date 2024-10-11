@@ -92,4 +92,42 @@ print(type(is_active))  # Output: <class 'bool'>
 # Str: Stores string values (sequences of characters).
 name = "John"
 print(type(name))  # Output: <class 'str'>
+```
+
+## Strings
+
+Strings in Python are used to store text, and various operations can be performed on them.
+
+```python
+# Concatenation of strings using different quotes
+print('python ' + "is" + """awesome""")  # Output: python is awesome
+
+# String repetition
+print('python' * 3)  # Output: pythonpythonpython
+
+# Example with user input
+Q = "What did you have for lunch?"
+A = input(Q)  # Takes user input
+print("You had " + A + "! That sounds delicious")
+
+# Escape characters using backslash (\)
+print("I\'m learning Python")  # Output: I'm learning Python
+
+# Special characters
+print("Hello\tWorld")  # Output: Hello    World (tab space)
+print("Hello\nWorld")  # Output: Hello (new line) 
+                       #          World
+
+# Triple quotes for multi-line strings
+print("""This is a 
+multi-line string""")  # Output:
+# This is a
+# multi-line string
+
+# String formatting
+my_var = 'blue'
+print("The sky is " + my_var)  # Output: The sky is blue
+print(f"The sky is {my_var}")  # Output: The sky is blue (f-string formatting)
+print("The sky is {}".format(my_var))  # Output: The sky is blue (format method)
+
 

@@ -69,3 +69,27 @@ print("My total saving of this month is", saving)  # Output: My total saving of 
 ```
 
 ## Data Types
+
+Python supports various data types:
+
+```python
+# Int: Stores integer values (whole numbers).
+age = 25
+print(type(age))  # Output: <class 'int'>
+
+# Float: Stores floating-point numbers (numbers with decimals).
+height = 5.9
+print(type(height))  # Output: <class 'float'>
+
+# Complex: Stores complex numbers (real and imaginary parts).
+complex_num = 3 + 5j
+print(type(complex_num))  # Output: <class 'complex'>
+
+# Bool: Stores Boolean values: True or False.
+is_active = True
+print(type(is_active))  # Output: <class 'bool'>
+
+# Str: Stores string values (sequences of characters).
+name = "John"
+print(type(name))  # Output: <class 'str'>
+

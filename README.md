@@ -129,5 +129,7 @@ my_var = 'blue'
 print("The sky is " + my_var)  # Output: The sky is blue
 print(f"The sky is {my_var}")  # Output: The sky is blue (f-string formatting)
 print("The sky is {}".format(my_var))  # Output: The sky is blue (format method)
+```
+
 
 

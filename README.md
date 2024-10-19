@@ -130,4 +130,47 @@ print("The sky is " + my_var)  # Output: The sky is blue
 print(f"The sky is {my_var}")  # Output: The sky is blue (f-string formatting)
 print("The sky is {}".format(my_var))  # Output: The sky is blue (format method)
 ```
-## List
+
+## Lists
+
+Lists in Python are used to store multiple items in a single variable. They are ordered, changeable, and allow duplicate values.
+
+```python
+# Creating a list
+fruits = ["apple", "banana", "cherry"]
+print(fruits)  # Output: ['apple', 'banana', 'cherry']
+
+# Accessing list items
+print(fruits[0])  # Output: apple (access first element)
+print(fruits[-1])  # Output: cherry (access last element)
+
+# Changing list items
+fruits[1] = "blueberry"
+print(fruits)  # Output: ['apple', 'blueberry', 'cherry']
+
+# List length
+print(len(fruits))  # Output: 3 (number of items in the list)
+
+# Adding items to the list
+fruits.append("orange")
+print(fruits)  # Output: ['apple', 'blueberry', 'cherry', 'orange']
+
+# Inserting items into the list
+fruits.insert(1, "mango")
+print(fruits)  # Output: ['apple', 'mango', 'blueberry', 'cherry', 'orange']
+
+# Removing items from the list
+fruits.remove("cherry")
+print(fruits)  # Output: ['apple', 'mango', 'blueberry', 'orange']
+
+# Popping the last item
+fruits.pop()
+print(fruits)  # Output: ['apple', 'mango', 'blueberry']
+
+# Sorting the list
+fruits.sort()
+print(fruits)  # Output: ['apple', 'blueberry', 'mango']
+
+# Reversing the list
+fruits.reverse()
+print(fruits)  # Output: ['mango', 'blueberry', 'apple']

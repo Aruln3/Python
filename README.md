@@ -174,3 +174,38 @@ print(fruits)  # Output: ['apple', 'blueberry', 'mango']
 # Reversing the list
 fruits.reverse()
 print(fruits)  # Output: ['mango', 'blueberry', 'apple']
+```
+
+## Tuples
+
+Tuples in Python are similar to lists but are immutable (i.e., they cannot be changed after their creation). They are defined using parentheses `()` instead of square brackets `[]`.
+
+```python
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+print(fruits)  # Output: ('apple', 'banana', 'cherry')
+
+# Accessing tuple items
+print(fruits[0])  # Output: apple
+print(fruits[-1])  # Output: cherry
+
+# Tuples are immutable (you cannot change items)
+# fruits[1] = "blueberry"  # This will raise a TypeError
+
+# Tuple length
+print(len(fruits))  # Output: 3
+
+# Unpacking tuples
+fruit1, fruit2, fruit3 = fruits
+print(fruit1)  # Output: apple
+print(fruit2)  # Output: banana
+print(fruit3)  # Output: cherry
+
+# Tuples with one item (comma needed)
+single_item_tuple = ("apple",)
+print(type(single_item_tuple))  # Output: <class 'tuple'>
+
+# Tuple methods (limited compared to lists)
+print(fruits.count("apple"))  # Output: 1 (counts occurrences)
+print(fruits.index("banana"))  # Output: 1 (returns the index of an item)
+```

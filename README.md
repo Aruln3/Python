@@ -209,3 +209,47 @@ print(type(single_item_tuple))  # Output: <class 'tuple'>
 print(fruits.count("apple"))  # Output: 1 (counts occurrences)
 print(fruits.index("banana"))  # Output: 1 (returns the index of an item)
 ```
+
+## Sets
+
+Sets in Python are unordered collections of unique items. They are defined using curly braces `{}`.
+
+```python
+# Creating a set
+fruits = {"apple", "banana", "cherry"}
+print(fruits)  # Output: {'banana', 'apple', 'cherry'}
+
+# Sets do not allow duplicates
+fruits = {"apple", "banana", "cherry", "apple"}
+print(fruits)  # Output: {'banana', 'apple', 'cherry'} (duplicate 'apple' is removed)
+
+# Checking if an item is in a set
+print("apple" in fruits)  # Output: True
+
+# Adding an item to a set
+fruits.add("orange")
+print(fruits)  # Output: {'banana', 'apple', 'cherry', 'orange'}
+
+# Adding multiple items to a set
+fruits.update(["mango", "grapes"])
+print(fruits)  # Output: {'banana', 'apple', 'cherry', 'orange', 'mango', 'grapes'}
+
+# Removing an item from a set
+fruits.remove("banana")
+print(fruits)  # Output: {'apple', 'cherry', 'orange', 'mango', 'grapes'}
+
+# Sets are unordered and do not support indexing
+# print(fruits[0])  # This will raise a TypeError
+
+# Set operations (union, intersection, difference)
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+# Union of sets
+print(set1 | set2)  # Output: {'apple', 'banana', 'cherry', 'google', 'microsoft'}
+
+# Intersection of sets
+print(set1 & set2)  # Output: {'apple'}
+
+# Difference of sets
+print(set1 - set2)  # Output: {'banana', 'cherry'}

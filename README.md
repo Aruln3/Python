@@ -253,3 +253,6 @@ print(set1 & set2)  # Output: {'apple'}
 
 # Difference of sets
 print(set1 - set2)  # Output: {'banana', 'cherry'}
+```
+
+##

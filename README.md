@@ -255,4 +255,6 @@ print(set1 & set2)  # Output: {'apple'}
 print(set1 - set2)  # Output: {'banana', 'cherry'}
 ```
 
-##
+## Dictionaries
+
+Dictionaries in Python are collections of key-value pairs. Each key is unique, and the values can be accessed via their corresponding keys. They are defined using curly braces `{}` with key-value pairs separated by a colon `:`.

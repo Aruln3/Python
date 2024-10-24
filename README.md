@@ -1,4 +1,4 @@
-# Python
+# Python.
 
 ## Installation
 1. **Install Anaconda**: [Anaconda Installation Guide](https://docs.anaconda.com/anaconda/install/windows/). After installation,
